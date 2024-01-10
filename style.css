@@ -1,0 +1,138 @@
+/********** PAGE DEFAULT *********/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+:root {
+  --primary-color: #081E90;
+  --secondary-color: #FFDC2A;
+}
+/******************* EXIST FOR ALL PAGES  *******************/
+/********** NAV-BAR *********/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.nav-bar {
+  overflow: hidden;
+
+}
+
+.main-nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+}
+
+.translation {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  gap: 50px;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: 'Russo One', sans-serif;
+  font-size: 25px;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: rgb(255, 241, 150);
+  background-color: rgb(19, 17, 80)
+}
+
+.logo {
+  height: 10rem;
+}
+
+/****************************** HOME ******************************/
+
+/* Youtube video */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+
+
+/******* SOCIAL MEDIA - SECTION *******/
+.icon {
+  height: 90px;
+  padding: 15px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  padding: 25px;
+  font-family: 'Source Serif 4', serif;
+}
+
+
+.sport-image img {
+  width: 100%;
+  box-shadow: 1px 1px 5px #d0d0d0;
+  background-color: white;
+  border-radius: 15px;
+  transition: transform .2s;
+}
+.sport-image img:hover{
+  transform: scale(1.05);
+}
+
+.text {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-left: 155px;
+  padding-right: 155px;
+  font-family: 'Source Serif 4', serif;
+}
+.text:hover {
+  background: #FFDC2A;
+}
+.container:hover {
+  background: #FFDC2A;
+}
+
+/******* Footer - SECTION *******/
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--primary-color);
+  gap: 20px;
+
+}
+
+.icon-media {
+  padding-left: 400px;
+}
+
+.icon-footer {
+  height: 90px;
+  padding: 15px;
+} 
+
+
+.footer {
+  color: var(--secondary-color);
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+}
